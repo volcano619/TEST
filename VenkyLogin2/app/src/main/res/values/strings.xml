@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VenkyLogin</string>
+    <string name="title_activity_user">user</string>
+    <string name="login_text">Login Page</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="attempts_text">Attempts :</string>
+    <string name="login_text_button">Login</string>
+    <string name="second_page_text">This is Venky</string>
+</resources>

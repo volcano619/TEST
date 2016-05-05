@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/billedret"
+		android:layout_below="@+id/ctgname"
+		android:layout_marginStart="82dp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/ctgname"
+		android:layout_alignParentTop="true"
+		android:layout_alignStart="@+id/billedret" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/ctgcode"
+		android:layout_below="@+id/rtrcode"
+		android:layout_toEndOf="@+id/textView27"
+		android:layout_marginStart="26dp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/rtrcode"
+		android:layout_below="@+id/rtrname"
+		android:layout_alignStart="@+id/ctgcode" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/rtrname"
+		android:layout_below="@+id/rtrclassid"
+		android:layout_alignStart="@+id/rtrcode" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/rtrclassid"
+		android:layout_below="@+id/rtrid"
+		android:layout_alignStart="@+id/rtrname" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/rtrid"
+		android:layout_below="@+id/rtradd1"
+		android:layout_alignStart="@+id/rtrclassid" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/rtradd1"
+		android:layout_below="@+id/rtrphoneno"
+		android:layout_alignStart="@+id/rtrid" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/rtrphoneno"
+		android:layout_below="@+id/mktid"
+		android:layout_alignStart="@+id/rtradd1" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/mktid"
+		android:layout_below="@+id/srpcde"
+		android:layout_alignStart="@+id/rtrphoneno" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/srpcde"
+		android:layout_below="@+id/distcode"
+		android:layout_alignStart="@+id/mktid" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/distcode"
+		android:layout_below="@+id/valueclasscode"
+		android:layout_alignStart="@+id/valueclasscode" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/valueclasscode"
+		android:layout_below="@+id/valueclassname"
+		android:layout_alignStart="@+id/srpcde" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/valueclassname"
+		android:layout_below="@+id/class1"
+		android:layout_alignStart="@+id/class1" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Text"
+		android:id="@+id/class1"
+		android:layout_below="@+id/billedret"
+		android:layout_alignStart="@+id/billedret" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="CtgryName:"
+		android:id="@+id/textView14"
+		android:layout_alignParentTop="true"
+		android:layout_toStartOf="@+id/ctgname" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="billed rt:"
+		android:id="@+id/textView15"
+		android:layout_below="@+id/textView14"
+		android:layout_alignStart="@+id/textView14" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="ClassNme:"
+		android:id="@+id/textView16"
+		android:layout_below="@+id/billedret"
+		android:layout_alignStart="@+id/textView15" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Vclass Nme"
+		android:id="@+id/textView17"
+		android:layout_below="@+id/class1"
+		android:layout_toStartOf="@+id/valueclassname" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="VclassCode"
+		android:id="@+id/textView18"
+		android:layout_below="@+id/valueclassname"
+		android:layout_alignStart="@+id/textView17" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Dist Code"
+		android:id="@+id/textView19"
+		android:layout_below="@+id/valueclasscode"
+		android:layout_alignStart="@+id/textView18" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="SrpCode:"
+		android:id="@+id/textView20"
+		android:layout_below="@+id/distcode"
+		android:layout_alignStart="@+id/textView19" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="MktID:"
+		android:id="@+id/textView21"
+		android:layout_below="@+id/srpcde"
+		android:layout_alignStart="@+id/textView20" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="RtrPhNo"
+		android:id="@+id/textView22"
+		android:layout_below="@+id/mktid"
+		android:layout_alignStart="@+id/textView21" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="RtrAdd"
+		android:id="@+id/textView23"
+		android:layout_below="@+id/rtrphoneno"
+		android:layout_alignStart="@+id/textView22" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="RtrID"
+		android:id="@+id/textView24"
+		android:layout_below="@+id/rtradd1"
+		android:layout_alignStart="@+id/textView23" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="RtrClassID"
+		android:id="@+id/textView25"
+		android:layout_below="@+id/rtrid"
+		android:layout_alignStart="@+id/textView24" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="RtrName"
+		android:id="@+id/textView26"
+		android:layout_alignTop="@+id/rtrname"
+		android:layout_alignStart="@+id/textView25" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="RtrCode"
+		android:id="@+id/textView27"
+		android:layout_below="@+id/rtrname"
+		android:layout_alignStart="@+id/textView26" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="CtgCode"
+		android:id="@+id/textView28"
+		android:layout_below="@+id/rtrcode"
+		android:layout_alignStart="@+id/textView27" />
+
+</RelativeLayout>

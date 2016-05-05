@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context="com.example.venky.proximity.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/proximitySensor"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/AccSensor"
+        android:layout_alignStart="@+id/AccSensor"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/lightSensor"
+        android:layout_below="@+id/proximityReading"
+        android:layout_alignLeft="@+id/proximityReading"
+        android:layout_alignStart="@+id/proximityReading"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/proximityMax"
+        android:layout_below="@+id/proximitySensor"
+        android:layout_alignLeft="@+id/proximitySensor"
+        android:layout_alignStart="@+id/proximitySensor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/proximityReading"
+        android:layout_below="@+id/proximityMax"
+        android:layout_alignLeft="@+id/proximityMax"
+        android:layout_alignStart="@+id/proximityMax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/lightReading"
+        android:layout_below="@+id/lightMax"
+        android:layout_alignLeft="@+id/lightMax"
+        android:layout_alignStart="@+id/lightMax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/lightMax"
+        android:layout_below="@+id/lightSensor"
+        android:layout_alignLeft="@+id/lightSensor"
+        android:layout_alignStart="@+id/lightSensor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/GyroSensor"
+
+        android:layout_below="@+id/lightReading"
+        android:layout_alignLeft="@+id/lightReading"
+        android:layout_alignStart="@+id/lightReading"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/GyroMax"
+        android:layout_below="@+id/GyroSensor"
+        android:layout_alignLeft="@+id/GyroSensor"
+        android:layout_alignStart="@+id/GyroSensor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/GyroReading"
+        android:layout_below="@+id/GyroMax"
+        android:layout_alignLeft="@+id/GyroMax"
+        android:layout_alignStart="@+id/GyroMax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/MagnetoSensor"
+        android:layout_below="@+id/GyroReading2"
+        android:layout_alignLeft="@+id/GyroReading2"
+        android:layout_alignStart="@+id/GyroReading2"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/MagnetoMax"
+        android:layout_below="@+id/MagnetoSensor"
+        android:layout_alignLeft="@+id/MagnetoSensor"
+        android:layout_alignStart="@+id/MagnetoSensor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/MagnetoReading"
+        android:layout_below="@+id/MagnetoMax"
+        android:layout_alignLeft="@+id/MagnetoMax"
+        android:layout_alignStart="@+id/MagnetoMax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/GyroReading1"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/GyroReading"
+        android:layout_alignStart="@+id/GyroReading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/GyroReading2"
+        android:layout_below="@+id/GyroReading1"
+        android:layout_alignLeft="@+id/GyroReading1"
+        android:layout_alignStart="@+id/GyroReading1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/AccSensor"
+        android:layout_below="@+id/MagnetoReading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/AccMax"
+        android:layout_below="@+id/AccSensor"
+        android:layout_alignLeft="@+id/AccSensor"
+        android:layout_alignStart="@+id/AccSensor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/AccReading"
+        android:layout_below="@+id/AccMax"
+        android:layout_alignLeft="@+id/AccMax"
+        android:layout_alignStart="@+id/AccMax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/AccReading1"
+        android:layout_below="@+id/AccReading"
+        android:layout_alignLeft="@+id/AccReading"
+        android:layout_alignStart="@+id/AccReading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/AccReading2"
+        android:layout_below="@+id/AccReading1"
+        android:layout_alignLeft="@+id/AccReading1"
+        android:layout_alignStart="@+id/AccReading1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximity"
+        android:id="@+id/btnProximity"
+        android:layout_below="@+id/GyroSensor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light"
+        android:id="@+id/btnLight"
+        android:layout_below="@+id/proximityReading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magneto"
+        android:id="@+id/btnMagneto"
+        android:layout_below="@+id/GyroReading1"
+        android:layout_alignRight="@+id/btnAcc"
+        android:layout_alignEnd="@+id/btnAcc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acc"
+        android:id="@+id/btnAcc"
+        android:layout_alignBaseline="@+id/lightReading"
+        android:layout_alignBottom="@+id/lightReading"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro"
+        android:id="@+id/btnGyro"
+        android:layout_alignBaseline="@+id/GyroReading2"
+        android:layout_alignBottom="@+id/GyroReading2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+
+

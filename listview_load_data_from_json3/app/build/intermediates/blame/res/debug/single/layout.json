@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/build/intermediates/res/merged/debug/layout/cell.xml",
+        "source": "/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/src/main/res/layout/cell.xml"
+    },
+    {
+        "merged": "/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/src/main/res/layout/activity_main.xml"
+    }
+]

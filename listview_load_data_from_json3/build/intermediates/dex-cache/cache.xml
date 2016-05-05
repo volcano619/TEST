@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="39ea50d9fe31c3804ecef25856bc063f7ed70c60">
+        <dex dex="/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b1766cc6cb2e42bfe647f84d47a3d09fdb2b589c/classes.dex" />
+    </item>
+    <item
+        jar="/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/libs/java-json.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="edad9c5de6fb8df07c535a47045956026011ffa3">
+        <dex dex="/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/build/intermediates/transforms/dex/debug/folders/1000/2/java-json_6ed030daa9e146abecbcf58ad4aca87439adbadb/classes.dex" />
+    </item>
+    <item
+        jar="/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="bae472aece76560349c915a453bac5f6f8c85405">
+        <dex dex="/home/venky/AndroidStudioProjects/listview_load_data_from_json3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6632d588bd31d714b11d8691be9530998ec7bf62/classes.dex" />
+    </item>
+
+</items>
