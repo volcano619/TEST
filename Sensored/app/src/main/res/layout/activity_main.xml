@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:contentPadding="10dp"
+    card_view:cardElevation="4dp"
+    android:layout_margin="4dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.venky.sensored.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro"
+        android:id="@+id/btnGyro"
+        android:layout_above="@+id/venky"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acc"
+        android:id="@+id/btnAcc"
+        android:layout_above="@+id/venky"
+        android:layout_toRightOf="@+id/btnActivity2"
+        android:layout_toEndOf="@+id/btnActivity2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro Sensor"
+        android:id="@+id/GyroSensor"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/GyroReading"
+        android:layout_alignEnd="@+id/GyroReading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro Sensor Max. Value"
+        android:id="@+id/GyroMax"
+        android:layout_below="@+id/GyroSensor"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro X Scale"
+        android:id="@+id/GyroReading"
+        android:layout_below="@+id/GyroMax"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro Y Scale"
+        android:id="@+id/GyroReading1"
+        android:layout_below="@+id/GyroReading"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro Z Scale"
+        android:id="@+id/GyroReading2"
+        android:layout_below="@+id/GyroReading1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Sensor"
+        android:id="@+id/AccSensor"
+        android:layout_below="@+id/GyroReading2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acc Max. Value"
+        android:id="@+id/AccMax"
+        android:layout_below="@+id/AccReading2"
+        android:layout_alignRight="@+id/AccReading2"
+        android:layout_alignEnd="@+id/AccReading2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acc X Scale"
+        android:id="@+id/AccReading"
+        android:layout_below="@+id/AccSensor"
+        android:layout_alignRight="@+id/AccSensor"
+        android:layout_alignEnd="@+id/AccSensor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acc Y Scale"
+        android:id="@+id/AccReading1"
+        android:layout_below="@+id/AccReading"
+        android:layout_alignRight="@+id/GyroMax"
+        android:layout_alignEnd="@+id/GyroMax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acc Z Scale"
+        android:id="@+id/AccReading2"
+
+        android:layout_below="@+id/AccReading1"
+        android:layout_alignRight="@+id/GyroMax"
+        android:layout_alignEnd="@+id/GyroMax" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by volcano619(Venky) Beta Team Mod"
+        android:id="@+id/venky"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximity"
+        android:id="@+id/btnActivity2"
+        android:layout_above="@+id/venky"
+        android:layout_toRightOf="@+id/btnGyro"
+        android:layout_toEndOf="@+id/btnGyro" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/AccMax"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/miui" />
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

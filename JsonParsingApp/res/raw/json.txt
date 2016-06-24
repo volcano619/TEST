@@ -1,0 +1,69 @@
+{
+    "Class":{
+        "Class_Id": "A2",
+        "Class_Type": "Science",
+        "Class_Student_Count": 23,
+        "Class_Studens": [
+            {
+                "Student_Id": "123456789",
+                "Student_Name": "DavStudent_Id",
+                "Student_Age": 23,
+                "Student_Grades": [
+                    { "Course_Name": "Mathematics", "Course_Grade": 95},
+                    { "Course_Name": "Biology", "Course_Grade": 80},
+                    { "Course_Name": "English", "Course_Grade": 86}
+                ]
+            },
+            {
+                "Student_Id": "987654321",
+                "Student_Name": "Dan",
+                "Student_Age": 25,
+                "Student_Grades": [
+                    { "Course_Name": "Mathematics", "Course_Grade": 95},
+                    { "Course_Name": "Biology", "Course_Grade": 80},
+                    { "Course_Name": "English", "Course_Grade": 86}
+                ]
+            },
+            {
+                "Student_Id": "123789456",
+                "Student_Name": "Smith",
+                "Student_Age": 30,
+                "Student_Grades": [
+                    { "Course_Name": "Mathematics", "Course_Grade": 95},
+                    { "Course_Name": "Biology", "Course_Grade": 80},
+                    { "Course_Name": "English", "Course_Grade": 86}
+                ]
+            },
+            {
+                "Student_Id": "987321654",
+                "Student_Name": "Jhon",
+                "Student_Age": 18,
+                "Student_Grades": [
+                    { "Course_Name": "Mathematics", "Course_Grade": 95},
+                    { "Course_Name": "Biology", "Course_Grade": 80},
+                    { "Course_Name": "English", "Course_Grade": 86}
+                ]
+            },
+            {
+                "Student_Id": "789123456",
+                "Student_Name": "Leon",
+                "Student_Age": 19,
+                "Student_Grades": [
+                    { "Course_Name": "Mathematics", "Course_Grade": 95},
+                    { "Course_Name": "Biology", "Course_Grade": 80},
+                    { "Course_Name": "English", "Course_Grade": 86}
+                ]
+            },
+            {
+                "Student_Id": "654987321",
+                "Student_Name": "Philip",
+                "Student_Age": 22,
+                "Student_Grades": [
+                    { "Course_Name": "Mathematics", "Course_Grade": 95},
+                    { "Course_Name": "Biology", "Course_Grade": 80},
+                    { "Course_Name": "English", "Course_Grade": 86}
+                ]
+            }
+        ]
+    }
+}

@@ -87,6 +87,13 @@ public class Database extends SQLiteOpenHelper {
 
     }
 
+    public boolean deleteall () {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TABLE_NAME,null,null);
+        db.execSQL("DELETE FROM SQLITE_SEQUENCE WHERE NAME = '" + TABLE_NAME + "'");
+
+        return false;
+    }
 
 
 }
@@ -98,56 +105,3 @@ public class Database extends SQLiteOpenHelper {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*public class Database extends SQLiteOpenHelper {
-
-    public Database(Context context)
-    {
-        super(context, "RetailersDatabase.db", null, 2);
-    }
-    @Override
-    public void onCreate(SQLiteDatabase db) {
-        String tableRet="create table Ret(rtrname text,ctgname text,rtrphoneno text)";
-        db.execSQL(tableRet);
-    }
-    @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-    }
-    public void insertData(String rtrname,String ctgname, String rtrphoneno)
-    {
-        SQLiteDatabase sqLiteDatabase=this.getWritableDatabase();
-        ContentValues values=new ContentValues();
-        values.put("rtrname",rtrname);
-        values.put("ctgname",ctgname);
-        values.put("rtrphoneno",rtrphoneno);
-        sqLiteDatabase.insert("Ret",null,values);
-    }
-    public ArrayList fetchData()
-    {
-        ArrayList<String>stringArrayList=new ArrayList<String>();
-        String fetchdata="select * from Ret";
-        SQLiteDatabase sqLiteDatabase=this.getReadableDatabase();
-        Cursor cursor=sqLiteDatabase.rawQuery(fetchdata, null);
-        if(cursor.moveToFirst()){
-            do
-            {
-                stringArrayList.add(cursor.getString(0));
-                stringArrayList.add(cursor.getString(1));
-                stringArrayList.add(cursor.getString(2));
-            } while (cursor.moveToNext());
-        }
-        return stringArrayList;
-    }
-}
-*/
